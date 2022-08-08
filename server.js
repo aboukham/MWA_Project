@@ -8,7 +8,7 @@ const billRouter = require('./routers/billRouter')
 const productRouter = require('./routers/productRouter')
 const categoryRouter = require('./routers/categoryRouter')
 var cors = require('cors');
-const User = require('./models/Users');
+
 
 require('dotenv').config();
 

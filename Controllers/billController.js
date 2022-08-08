@@ -7,6 +7,7 @@ let fs = require('fs')
 let uuid = require('uuid')
 
 module.exports.generateReport = (req, res, next) => {
+  //Create a version 1 (timestamp) UUID
   const generateUuid = uuid.v1()
   const orderDetails = req.body
   const productDetailsReport = JSON.parse(orderDetails.productDetails)

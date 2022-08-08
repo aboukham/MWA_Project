@@ -1,5 +1,4 @@
 const express = require('express')
-const nodemailer = require('nodemailer')
 var auth = require('../Service/Authentication')
 var checkRole = require('../Service/checkRole')
 const {
